@@ -4,6 +4,6 @@
   <h3 align="center">Welcome to my React / Next.js Portolio</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>Milano Moses</b></a>YouTube. Join the JSM family!
+     I <a href="https://www.youtube.com/" target="_blank"><b>Milano Moses</b></a>Dedicated front – end developer, focused at building modern web products for maximum client satisfaction, while staying up to par with industry design and development trends. 
     </div>
 </div>
