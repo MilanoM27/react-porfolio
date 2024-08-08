@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "With over 3 years Experience",
+    title: "With over 3 years Experience, I work globally.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -60,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to hire me?",
+    title: "Do you want to have a quick meeting?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
