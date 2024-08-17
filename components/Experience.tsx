@@ -24,7 +24,7 @@ const Experience = () => {
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
               // add this border radius to make it more rounded so that the moving border is more realistic
-              borderRadius: `calc(1.75rem* 0.96)`,
+              borderRadius: `calc(1.5rem* 0.96)`,
             }}
             // remove bg-white dark:bg-slate-900
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
@@ -37,10 +37,13 @@ const Experience = () => {
               />
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl font-bold">
-                  {card.title}
+                  {card.title} {card.title2}
                 </h1>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
+                  <br></br> {card.desc2} <br></br>
+                  {card.desc3}
+                  <br></br> {card.desc4}
                 </p>
               </div>
             </div>

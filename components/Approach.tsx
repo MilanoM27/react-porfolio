@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My <span className="text-purple">Process</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -48,7 +48,7 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Development & Launch & Monitor"
           icon={<AceternityIcon order="Phase 3" />}
           des="This is where the magic happens! Based on the approved design, 
           I'll translate everything into functional code, building your website
