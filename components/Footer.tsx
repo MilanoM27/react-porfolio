@@ -17,16 +17,19 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Would you like to <span className="text-purple">arrange a quick</span>{" "}
+          meeting?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals and become an asset to your team.
+          Reach out to me today and let&apos;s discuss how I can become an asset
+          to your team and help achieve your goals.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <p className="text-white-200 md:mt-10 my-5 text-center">
+          Feel free to call or WhatsApp me on: 062 797 0495
+        </p>
+        <a href="mailto:milanom215@gmail.com">
           <MagicButton
-            title="Let's get in touch"
+            title="Send Me An Email"
             icon={<FaLocationArrow />}
             position="right"
           />
