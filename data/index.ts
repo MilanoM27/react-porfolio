@@ -77,7 +77,7 @@ export const projects = [
     des: "South African software and web design company dedicated to crafting exceptional digital solutions",
     img: "/ec.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ecstaticweb.co.za",
+    link: "https://ecstaticweb.co.za",
   },
   {
     id: 2,
