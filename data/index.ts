@@ -85,7 +85,7 @@ export const projects = [
     des: "Go Homemade provide local businesses the opportunity to connect with their customers online",
     img: "/hm3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://gohomemade.co.za",
   },
   {
     id: 3,
@@ -93,7 +93,7 @@ export const projects = [
     des: "Specializing in delivering robust and seamless solutions for on-premises & cloud management services.",
     img: "/mnpc-5.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://www.mnpcsolutions.co.za",
   },
   {
     id: 4,
@@ -101,7 +101,7 @@ export const projects = [
     des: "Believes that every child deserves to be equipped with  4IR information.",
     img: "/ad1.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://adelinanyokong.com",
   },
   {
     id: 5,
@@ -109,7 +109,7 @@ export const projects = [
     des: "Authentication and legalisation agency that assist corporations and individuals in South Africa",
     img: "/ga-2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://apostillelegalisation.co.za/",
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ export const projects = [
     des: "Manufacturer and installer of architectural aluminium products.",
     img: "/kn-4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://kennyaluminiumsystems.co.za/",
   },
 ];
 
