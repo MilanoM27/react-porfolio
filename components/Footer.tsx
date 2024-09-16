@@ -26,6 +26,9 @@ const Footer = () => {
         </p>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Feel free to call or WhatsApp me on: 062 797 0495
+          <a href="your-pdf-file.pdf" download>
+            Download My Resume
+          </a>
         </p>
         <a href="mailto:milanom215@gmail.com">
           <MagicButton
@@ -48,7 +51,7 @@ const Footer = () => {
             >
               <a
                 key={info.id}
-                href={info.link} // Assuming URL is provided in socialMedia data
+                href={info.link} // URL provided in socialMedia data
                 target="_blank"
                 rel="noopener noreferrer"
               >
