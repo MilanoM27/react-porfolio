@@ -73,11 +73,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Electronics E-Commerce",
-    des: "Ecstatic Web is your one-stop online shop for everything tech and electronic.",
-    img: "/p1.svg",
+    title: "Ecstatic Web",
+    des: "South African software and web design company dedicated to crafting exceptional digital solutions",
+    img: "/ec.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "/ecstaticweb.co.za",
   },
   {
     id: 2,
