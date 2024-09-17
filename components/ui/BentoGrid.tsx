@@ -59,7 +59,7 @@ export const BentoGridItem = ({
     "Express",
     "Typescript",
   ];
-  const rightLists = ["VueJS", "NextJS", "GraphQL"];
+  const rightLists = ["VueJS", "NextJS", ".Net"];
 
   const [copied, setCopied] = useState(false);
 
