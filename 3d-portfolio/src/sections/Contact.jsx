@@ -10,12 +10,14 @@ const Contact = () => {
   const [form, setForm] = useState({
     name: "",
     email: "",
+    phone: "",    
     message: "",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setForm({ ...form, [name]: value });
+    setForm({ name: "", email: "", phone: "", message: "" });
+
   };
 
   const handleSubmit = async (e) => {
@@ -79,6 +81,18 @@ const Contact = () => {
                     required
                   />
                 </div>
+                <div>
+  <label htmlFor="phone">Your Phone Number</label>
+  <input
+    type="tel"
+    id="phone"
+    name="phone"
+    value={form.phone}
+    onChange={handleChange}
+    placeholder="Your phone number"
+    // optional: you can add required if you want it mandatory
+  />
+</div>
 
                 <div>
                   <label htmlFor="message">Your Message</label>
