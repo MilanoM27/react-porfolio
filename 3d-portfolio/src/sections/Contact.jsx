@@ -16,7 +16,7 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setForm({ name: "", email: "", phone: "", message: "" });
+    RsetForm({ name: "", email: "", phone: "", message: "" });
 
   };
 
@@ -64,7 +64,7 @@ const Contact = () => {
                     name="name"
                     value={form.name}
                     onChange={handleChange}
-                    placeholder="What’s your good name?"
+                    placeholder="What’s your name?"
                     required
                   />
                 </div>
